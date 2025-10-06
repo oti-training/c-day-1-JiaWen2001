@@ -1,4 +1,6 @@
 /*
+
+
  * Day 1 Exercise 2: Voltage Validator
  *
  * TODO: Implement a program that reads a voltage value
@@ -17,11 +19,6 @@
  * @return 1 if valid, 0 if invalid
  */
 int is_valid_voltage(float voltage) {
-	if (voltage >= 1.8f && voltage <= 3.3f){
-		return 1;
-	} else {
-		return 0;
-}
     // TODO: Implement voltage validation logic
     return -1;  // Placeholder to fail all tests
 }
@@ -38,13 +35,7 @@ int main(void) {
     // TODO: Read input and validate
     printf("Enter measured voltage: ");
     // scanf("%f", &measured_voltage);  // Uncomment and use
-    scanf("%f", &measured_voltage);
-    
-    if (is_valid_voltage(measured_voltage)) {
-        printf("Pass\n");
-    } else {
-        printf("Failed\n");
-    }
+scanf("%f", &measured_voltage);
     return 0;
 }
 #endif
